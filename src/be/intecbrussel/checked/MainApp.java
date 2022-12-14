@@ -11,6 +11,5 @@ public class MainApp {
         catch(CustomException customException) {
             System.out.println("[" + customException + "] Exception Occurred");
         }
-
     }
 }

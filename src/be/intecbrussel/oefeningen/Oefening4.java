@@ -10,12 +10,13 @@ public class Oefening4 {
 
         while (true) {
             try {
-                System.out.println("Please enter your number:");
+                System.out.println("Please enter your number: ");
                 int myNum = scanner.nextInt();
                 System.out.println("your number is: " + myNum);
                 break;
             } catch (InputMismatchException inputMismatchException) {
                 System.out.println("you didn't enter a int number, Exception -> " + inputMismatchException);
+                scanner.next();
             }
         }
     }
