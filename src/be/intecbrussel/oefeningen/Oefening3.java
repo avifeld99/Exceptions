@@ -20,7 +20,7 @@ public class Oefening3 {
         }
         finally {
             scanner.close();
-            System.out.println("This is the input we tried to convert: " + input);
         }
+        System.out.println("This is the input we tried to convert: " + input);
     }
 }

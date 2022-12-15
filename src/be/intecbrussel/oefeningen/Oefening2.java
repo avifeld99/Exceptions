@@ -13,5 +13,5 @@ public class Oefening2 {
     // compileerfout meegeven.
 
     // Vraag 3:
-    // deze code is legaal, want 'try' zonder 'catch' werkt ook, en 'finally' is sowieso optioneel.
+    // deze code is legaal, want 'try' mag ofwel een 'catch' ofwel een 'finally' hebben.
 }
